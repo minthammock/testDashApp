@@ -4,8 +4,7 @@ import dash_html_components as html
 import dash.dependencies  as dd
 import plotly.express as px
 
-import tensorflow.keras as keras
-from tensorflow.keras.preprocessing.image import ImageDataGenerator, img_to_array, array_to_img, load_img
+from keras.preprocessing.image import ImageDataGenerator, img_to_array, array_to_img, load_img
 
 from PIL import Image as pilImage
 import io
